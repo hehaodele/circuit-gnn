@@ -1,0 +1,9 @@
+__pycache__/*
+*/__pycache__/*
+.idea/*
+.ipynb_checkpoints/*
+*ipynb
+
+data/*
+data.zip
+dump/*
