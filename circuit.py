@@ -675,7 +675,7 @@ if __name__ == '__main__':
     import matplotlib.pyplot as plt
     import argparse
     parser = argparse.ArgumentParser()
-    parser.add_argument('-n', dest='num_resonator', type=int, default=4, help="num of resonators from [3,4,5,6]")
+    parser.add_argument('--num_resonator', type=int, default=4, help="num of resonators from [3,4,5,6]")
     args = parser.parse_args()
 
     generator = CircuitGenerator(num_resonator=args.num_resonator)
