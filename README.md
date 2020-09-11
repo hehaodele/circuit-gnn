@@ -1,7 +1,7 @@
 # Circuit-GNN: Graph Neural Networks for Distributed Circuit Design
 Guo Zhang*, Hao He*, Dina Katabi
 
-(* indicates cp-primary authors)
+(* indicates co-primary authors)
 
 Check the [ICML proceeding](http://proceedings.mlr.press/v97/zhang19e.html) here. 
 The [oral presentation](https://slideslive.com/38917395/applications) can be found here (starting from 1:09:40).
