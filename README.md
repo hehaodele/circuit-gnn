@@ -14,7 +14,10 @@ python circuit.py --num_resonator {n}
 ```
 
 ### Download Dataset
-You can download datast here, [Circuit-GNN Dataset (27.6GB)](http://circuit-gnn.csail.mit.edu/data.zip).
+You can download [Circuit-GNN Dataset (27.6GB)](http://circuit-gnn.csail.mit.edu/data.zip) via
+```bash
+wget http://circuit-gnn.csail.mit.edu/data.zip
+```
 
 Extract the zip file and put them into your `data_root`. You should find a folder `data` and three data lists `train/valid/test_list.txt` under your `data_root`.
 In the `data` folder there should be multiple subfolders with the name `num{n}_type{t}`. It contains all random generated circuits having `n` resonators and topology type `t`.
@@ -25,7 +28,10 @@ The dataset is an updated version of the dataset we used for the original ICML p
 - Harder Examples: The range a circuit parameters is adjusted a bit to include circuit with unusual s2p.      
 
 ### Download Pre-trained Checkpoint
-We provide an pre-trained model, [Circuit-GNN Example](http://circuit-gnn.csail.mit.edu/exp_example.zip).
+We provide an pre-trained model, [Circuit-GNN Example](http://circuit-gnn.csail.mit.edu/exp_example.zip). One could download it via
+```bash
+wget http://circuit-gnn.csail.mit.edu/exp_example.zip
+```
 After extracting it, please move it the `./dump` which is the default folder where all experiments folder will be put.
 Then you can test, do forward prediction or inverse optimization with this pre-trained model via the following commands.   
 
